@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Bg from '../../src/Images/HomeBg.jpg';
-import Bg1 from '../../src/Images/HomeBg2.jpg';
+
 import { IoDiamondOutline } from "react-icons/io5";
 import { FaShippingFast } from "react-icons/fa";
 import { FaGift } from "react-icons/fa6";
@@ -12,7 +12,7 @@ export default function HomeCompo({ title, description }) {
   const [isTyping, setIsTyping] = useState(true);
   const [currentBg, setCurrentBg] = useState(0);
   const fullText = "WoodMax";
-  const backgrounds = [Bg, Bg1];
+  const backgrounds = [Bg];
 
   // Typing effect
   useEffect(() => {

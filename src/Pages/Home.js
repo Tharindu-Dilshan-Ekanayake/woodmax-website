@@ -66,13 +66,13 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar activeSection={activeSection} scrollToSection={scrollToSection} />
       
-      <div ref={homeRef} id="home" className="min-h-screen pb-16 ">
+      <div ref={homeRef} id="home" className="min-h-screen ">
         
         <HomeCompo />
       </div>
       
-      <div ref={aboutRef} id="about" className="min-h-screen py-16 border-2">
-        <h1 className="text-xl font-bold">About</h1>
+      <div ref={aboutRef} id="about" className="min-h-screen ">
+        
         <About 
           company="Hik"
           year={2025}
