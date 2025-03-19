@@ -9,7 +9,7 @@ export default function About() {
         className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-40 -z-10"
         style={{ backgroundImage: `url(${bg2})` }}
       />
-      <div className="pt-16 border-b-2">
+      <div className="flex px-10 pt-[70px] ">
           <span className="px-6 py-2 font-bold text-orange-500 border border-orange-500 rounded">
             ABOUT
           </span>
@@ -84,7 +84,7 @@ export default function About() {
       </div>
       
       {/* Footer */}
-      <div className="flex items-center justify-end gap-4 p-4 mt-auto bg-gray-900">
+      <div className="flex items-center justify-end gap-4 p-4 mt-auto bg-[#19191A]">
         {/* Profile Circles */}
         <div className="flex">
           {[1, 2, 3, 4].map((item, index) => (
