@@ -80,15 +80,8 @@ export default function Home() {
         />
       </div>
       
-      <div ref={productRef} id="product" className="min-h-screen py-16 ">
-        <h1 className="text-xl font-bold">Product</h1>
-        <Product 
-          products={[
-            { id: 1, name: "Product 1", price: 100 },
-            { id: 2, name: "Product 2", price: 200 },
-            { id: 3, name: "Product 3", price: 300 }
-          ]}
-        />
+      <div ref={productRef} id="product" className="min-h-screen ">
+        <Product />
       </div>
       
       <div ref={contactRef} id="contact" className="min-h-screen ">
