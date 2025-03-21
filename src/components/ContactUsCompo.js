@@ -82,7 +82,7 @@ export default function ContactUsCompo() {
               </div>
             </div>
             
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-1">
               <div>
                 <label className="block mb-2 text-gray-700">Email</label>
                 <input 
@@ -91,14 +91,7 @@ export default function ContactUsCompo() {
                   className="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-orange-500"
                 />
               </div>
-              <div>
-                <label className="block mb-2 text-gray-700">Company</label>
-                <input 
-                  type="text" 
-                  placeholder="Company"
-                  className="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-orange-500"
-                />
-              </div>
+              
             </div>
             
             <div>
