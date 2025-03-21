@@ -80,7 +80,7 @@ export default function Home() {
         />
       </div>
       
-      <div ref={productRef} id="product" className="min-h-screen py-16 border-2">
+      <div ref={productRef} id="product" className="min-h-screen py-16 ">
         <h1 className="text-xl font-bold">Product</h1>
         <Product 
           products={[
@@ -91,8 +91,7 @@ export default function Home() {
         />
       </div>
       
-      <div ref={contactRef} id="contact" className="min-h-screen py-16 border-2">
-        <h1 className="text-xl font-bold">Contact us</h1>
+      <div ref={contactRef} id="contact" className="min-h-screen ">
         <ContactUsCompo 
           email="contact@hik.com"
           phone="+1 234 567 8901"

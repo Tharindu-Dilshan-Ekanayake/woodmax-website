@@ -87,19 +87,19 @@ export default function About() {
             {/* Stats Section */}
             <div className="flex flex-row justify-between gap-4 mb-8">
               {/* Projects */}
-              <div className="bg-gray-900 text-white p-4 rounded-lg w-[100px] text-center">
+              <div className="bg-[#19191A] text-white p-4 rounded-lg w-[100px] text-center">
                 <span className="text-4xl font-bold text-orange-500">10+</span>
                 <div className="mt-2 text-xs">PROJECTS</div>
               </div>
               
               {/* Clients */}
-              <div className="bg-gray-900 text-white p-4 rounded-lg w-[100px] text-center">
+              <div className="bg-[#19191A] text-white p-4 rounded-lg w-[100px] text-center">
                 <span className="text-4xl font-bold text-orange-500">20+</span>
                 <div className="mt-2 text-xs">CLIENTS</div>
               </div>
               
               {/* Years */}
-              <div className="bg-gray-900 text-white p-4 rounded-lg w-[100px] text-center">
+              <div className="bg-[#19191A] text-white p-4 rounded-lg w-[100px] text-center">
                 <span className="text-4xl font-bold text-orange-500">02</span>
                 <div className="mt-2 text-xs">YEARS</div>
               </div>
