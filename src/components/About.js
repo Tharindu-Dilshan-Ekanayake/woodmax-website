@@ -106,25 +106,23 @@ export default function About() {
             </div>
             
             {/* Description Text */}
-            <div className="mb-4">
-              <p className="leading-relaxed">
-                Welcome to WoodMax, where craftsmanship meets excellence. 
-                With years of experience in the carpentry industry, we take pride 
-                in delivering high-quality woodworking solutions tailored to your 
-                needs.
-              </p>
-            </div>
-            
-            <div>
-              <p className="leading-relaxed">
-                Welcome to WoodMax, where craftsmanship meets excellence. 
-                With years of experience in the carpentry industry, we take pride 
-                in delivering high-quality woodworking solutions tailored to your 
-                needs.
-              </p>
-            </div>
+            {/* Description Text */}
+<div className="mb-4">
+  <p className="leading-relaxed">
+    At Wood Max, we transform raw timber into extraordinary furniture and wooden creations that combine timeless craftsmanship with contemporary design. Our workshop brings together master artisans and innovative woodworkers dedicated to celebrating the natural beauty of wood.
+  </p>
+</div>
+
+<div>
+  <p className="leading-relaxed">
+    Every piece that leaves our workshop tells a story of dedication and skill. We carefully select premium hardwoods and sustainable timber sources, honoring our commitment to environmental responsibility while ensuring exceptional quality.
+  </p>
+</div>
           </div>
         </div>
+      </div>
+      <div>
+        <h1>location</h1>
       </div>
       
       {/* Footer */}
