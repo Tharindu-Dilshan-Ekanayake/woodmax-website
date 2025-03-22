@@ -5,6 +5,7 @@ import About from '../components/About';
 import Product from '../components/Product';
 import ContactUsCompo from '../components/ContactUsCompo';
 import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('home');
@@ -85,12 +86,18 @@ export default function Home() {
       </div>
       
       <div ref={contactRef} id="contact" className="min-h-screen ">
-        <ContactUsCompo 
-          email="contact@hik.com"
-          phone="+1 234 567 8901"
-          address="123 Main St, City, Country"
-        />
+        <ContactUsCompo/>
+      </div>
+      
+      <div>
+        <footer className="py-4 text-center text-white bg-[#19191A]">
+          <div>
+            <Footer/>
+          </div>
+          <p>&copy; 2025 WoodMax. All rights reserved.</p>
+        </footer>
       </div>
     </div>
+    
   );
 }
